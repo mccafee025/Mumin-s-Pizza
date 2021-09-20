@@ -34,5 +34,59 @@
 		<section>
 			<img src="images/pizza1.jpeg" alt="pizza" title="tasty pizza"/>
 		</section>
+		<div class="order">
+			<form id="my-form">
+				<h1>Order</h1>
+				<label for"toppings">
+					Choose toppings	
+				</label>
+				<select  id="toppings" name"toppings" >
+					<option value="Pepperoni">Pepperoni</option>
+					<option value="Mushrooms">Mushrooms</option>
+					<option value="Onions">Onions</option>
+					<option value="Sausage">Sausage</option>
+					<option value="Extra cheese">Extra cheese</option>
+					<option value="Black olives">Black olives</option>
+					<option value="Green peppers">Green peppers</option>
+					<option value="Pineapple">Pineabble</option>
+					<option value="Spinach">Spinach</option>
+				</select><br>
+				<label for"size">
+					Size
+				</label>
+				<select id="size" name="size">
+					<option value="small">small</option>
+					<option value="medium">medium</option>
+					<option value="Large">Large</option>
+					<option value="x-large">Extra-large</option>
+				</select><br>
+				<label for"crust">
+					Choose crust
+				</label>
+				<select id="crust" name="crust">
+					<option value="crispy">Crispy</option>
+					<option value="stuff">stuffed</option>
+					<option value="gluten-free">Gluten-free</option>
+				</select>
+				<br>
+				<label for="number">
+					Choose a number
+				</label>
+				<input id="number"type="number"><br>
+				
+				<label for="delivery">
+					Delivery
+				</label>
+				<input type="radio" id="delivery" name="delivery">Yes
+				<input type="radio" id="delivery2" name="delivery">No<br>
+				<input type="submit" value="Order"><br>
+				<label for="total">
+					Total
+				</label>
+				<input id="total" >
+			</form>
+		</div>
+		<div style="margin-top:500px;">
+		</div>
 	</body>
 </html>
