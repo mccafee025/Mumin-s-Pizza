@@ -87,6 +87,11 @@ a.active,a:hover {
 		transition:all .5s;
 
 	}
+
+	section img {
+		width:500px;
+		height:450px;
+	}
 	nav ul li {
 		display: block;
 		margin: 50px 0;
@@ -105,3 +110,31 @@ a.active,a:hover {
 		left:0;
 	}
 }
+
+section {
+	text-align:center;
+	padding:2rem;
+}
+
+.about {
+	padding:15rem;
+	padding-top:70px;
+}
+
+
+.order {
+	text-align: center;
+	background:#cb9d9d;
+	max-width:70%;
+	margin-left:230px;
+}
+
+#my-form {
+	padding:2rem;
+}
+
+#my-form label {
+	display:block;
+}
+
+
