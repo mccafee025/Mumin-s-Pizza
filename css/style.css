@@ -130,11 +130,31 @@ section {
 }
 
 #my-form {
-	padding:2rem;
+	padding:3rem;
 }
 
-#my-form label {
+.btn {
 	display:block;
+	width:80%;
+	padding: 10px 15px;
+	border:0;
+	background:#862323;
+	color: #fff;
+	border-radius: 5px;
+	margin:5px 0;
+	margin-left:90px;
 }
 
+.btn:hover {
+	background: #333;
+	color: #fff;
+}
+#my-form label{
+	display:block;
+	
+}
 
+#my-form select {
+	width:50%;
+	padding:7px;
+}
