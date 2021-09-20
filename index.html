@@ -40,7 +40,8 @@
 				<label for"toppings">
 					Choose toppings	
 				</label>
-				<select  id="toppings" name"toppings" >
+				<select required="required" id="toppings" name"toppings" >
+					<option value=""></option>	
 					<option value="Pepperoni">Pepperoni</option>
 					<option value="Mushrooms">Mushrooms</option>
 					<option value="Onions">Onions</option>
@@ -54,7 +55,8 @@
 				<label for"size">
 					Size
 				</label>
-				<select id="size" name="size">
+				<select required="required" id="size" name="size">
+					<option value""></option>
 					<option value="small">small</option>
 					<option value="medium">medium</option>
 					<option value="Large">Large</option>
@@ -63,7 +65,8 @@
 				<label for"crust">
 					Choose crust
 				</label>
-				<select id="crust" name="crust">
+				<select required="required"id="crust" name="crust">
+					<option value=""></option>
 					<option value="crispy">Crispy</option>
 					<option value="stuff">stuffed</option>
 					<option value="gluten-free">Gluten-free</option>
@@ -79,14 +82,19 @@
 				</label>
 				<input type="radio" id="delivery" name="delivery">Yes
 				<input type="radio" id="delivery2" name="delivery">No<br>
-				<input class="btn" type="submit" value="Order"><br>
+				<input id="btn" type="submit" value="Order"><br>
 				<label for="total">
 					Total
 				</label>
 				<input id="total" >
 			</form>
 		</div>
+		<div style="margin-top:100px;">
+			<h2>About</h2>
+			<p> Mumin
+		</div>
 		<div style="margin-top:500px;">
 		</div>
+		<script src="Js/app.js"></script>
 	</body>
 </html>
